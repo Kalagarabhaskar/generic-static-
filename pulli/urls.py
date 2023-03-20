@@ -20,5 +20,8 @@ from thilak.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('lion/',lion,name='lion'),
+    path('mainpage/',mainpage,name='mainpage'),
+    path('login_form/',login_form,name='login_form'),
+    path('signup_form/',signup_form,name='signup_form'),
+
 ]
